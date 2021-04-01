@@ -104,7 +104,7 @@ class Shimmer extends StatefulWidget {
 
 class _ShimmerState extends State<Shimmer> with SingleTickerProviderStateMixin {
   late AnimationController _controller;
-  int? _count;
+  late int _count;
 
   @override
   void initState() {
