@@ -119,7 +119,7 @@ class _ShimmerState extends State<Shimmer> with SingleTickerProviderStateMixin {
           _count++;
           if (widget.loop <= 0) {
             _controller.repeat();
-          } else if (_count! < widget.loop) {
+          } else if (_count < widget.loop) {
             _controller.forward(from: 0.0);
           }
         }
