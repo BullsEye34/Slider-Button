@@ -188,9 +188,6 @@ class _SliderButtonState extends State<SliderButton> {
                             height: widget.buttonSize,
                             width: widget.buttonSize,
                             decoration: BoxDecoration(
-                                boxShadow: [
-                                  widget.boxShadow,
-                                ],
                                 color: widget.buttonColor,
                                 borderRadius:
                                     BorderRadius.circular(widget.radius)),
